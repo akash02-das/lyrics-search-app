@@ -122,3 +122,114 @@ ul.songs li {
     transform: scale(1.3);
     margin: 15px;
 }
+
+/* Media Query Responsiveness */
+@media (max-width: 700px) {
+    form {
+        width: 400px;
+    }
+
+    form input {
+        font-size: 16px;
+        padding: 13px 20px;
+    }
+
+    form button {
+        font-size: 16px;
+        padding: 11px 20px;
+    }
+
+    .container {
+        margin: 16px auto;
+        max-width: 100%;
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 350px;
+    }
+
+    form input {
+        font-size: 14px;
+        padding: 13px 20px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+
+    .container {
+        margin: 16px auto;
+        max-width: 100%;
+        width: 350px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .container ul li span {
+        font-size: 16px;
+    }
+
+    .container ul li button {
+        font-size: 14px;
+    }
+
+    .container strong span {
+        font-size: 16px;
+    }
+
+    .centered button {
+        transform: scale(1.2);
+        margin: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 300px;
+    }
+
+    form input {
+        font-size: 14px;
+        padding: 11px 16px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+
+    .container {
+        margin: 20px auto;
+        max-width: 100%;
+        width: 300px;
+    }
+
+    .container h2 {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .container ul li span {
+        font-size: 14px;
+    }
+
+    .container ul li button {
+        font-size: 10px;
+    }
+
+    .container strong span {
+        font-size: 14px;
+    }
+
+    .centered button {
+        transform: scale(1.1);
+        margin: 10px;
+    }
+}
